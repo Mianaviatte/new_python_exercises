@@ -1,10 +1,9 @@
 import textwrap
 
-with open('d:/Dev_ChL/fun_tools/lorem_ipsum.txt') as text_block1:
+#open lorem ipsum document for reading to shorten
+with open('d:/Dev_Main/Dev_Python/fun_tools/lorem_ipsum.txt') as text_block1:
+    w = text_block1.read()
+    
+    print(textwrap.shorten(w, width=50))
+    print(textwrap.shorten(w, width=15))
 
-    textwrap.shorten(text_block1, width=50)
-    textwrap.shorten(text_block1, width=15)
-
-# File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\textwrap.py", line 406, in shorten
-# return w.fill(' '.join(text.strip().split()))
-# AttributeError: '_io.TextIOWrapper' object has no attribute 'strip'

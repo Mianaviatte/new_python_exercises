@@ -16,6 +16,7 @@ l = [12, 17, 32, 67, 34, 89, 96, 2]
 r = -1
 m = l[2:r]
 print(m, "if end parameter is", r)
+
 #comprehention to find index of max item in list 
 index_of_max = max((item, i) for i, item in enumerate(l))[1]
 print('Index of max item in list L:', index_of_max)
