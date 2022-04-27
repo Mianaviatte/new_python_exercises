@@ -49,6 +49,7 @@ Backup of *.doc*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/vcs.xml
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -340,4 +341,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+<<<<<<< HEAD
 .idea/vcs.xml
+=======
+>>>>>>> c5417fc73011a37d78a6d97d91466ee7c79f72a6
