@@ -46,3 +46,13 @@ while i<46:
         continue
     print ("it's nice to have " + str(int(2*i/3)) + " pies!")
     print ("it's fucked up", i, "pies and", i/2, "muffins")
+
+#list slicing and index of max
+
+l = [12, 17, 32, 67, 34, 89, 96, 2]
+r = -1
+m = l[2:r]
+print(m, "if end parameter is", r)
+
+index_of_max = max((item, i) for i, item in enumerate(l))[1]
+print('Index of max item in list L:', index_of_max)    
