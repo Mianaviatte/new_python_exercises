@@ -1,4 +1,4 @@
-# new_python_exercises
+# My python exercises
 Some starters experiments in my Python sandbox.
 
 starters_kit:
