@@ -1,4 +1,4 @@
-# dev_ChL
+# new_python_exercises
 Some starters experiments in my Python sandbox.
 
 starters_kit:
